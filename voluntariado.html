@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+    .w3-bar-block .w3-bar-item {padding:20px}
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#testemunhos" onclick="w3_close()" class="w3-bar-item w3-button">América</a>
+  <a href="#testemunhos" onclick="w3_close()" class="w3-bar-item w3-button">África</a>
+  <a href="#testemunhos" onclick="w3_close()" class="w3-bar-item w3-button">Ásia</a>
+  <a href="#testemunhos" onclick="w3_close()" class="w3-bar-item w3-button">Europa</a>
+  <a href="#testemunhos" onclick="w3_close()" class="w3-bar-item w3-button">Oceânia</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top w3-gray">
+  <div class="w3-gray w3-xlarge" style="max-width:1200px;margin:auto;">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Saber Mais</div>
+    <div class="w3-center w3-padding-16">Voluntariado</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center">  
+      <h3><b>Mudar o mundo começa em ti!</b></h3><br>
+      <img src="https://i0.wp.com/www.mosaicgeorgia.org/wp-content/uploads/2019/07/Volunteer-Blog-Post-Image.jpg?resize=1097%2C581&ssl=1" alt="Voluntários" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+      <div class="w3-padding-32">
+        <h4><b>Juntos fazemos a diferença!</b></h4>
+        <h6><i>O amor ao próximo não conhece fronteiras ideológicas ou religiosas.</i></h6>
+        <p> O voluntariado é fundamental para a força, resistência, solidariedade e coesão social da comunidade. É uma demonstração poderosa de como a solidariedade posta em prática pode construir um mundo melhor para todos e onde todos podem contribuir com o seu tempo, conhecimento e energia para a paz, o bem-estar e o desenvolvimento. Cada um de nós pode partilhar competências, conhecimento e/ou tempo contribuindo para uma sociedade mais coesa e solidária. Como começar? Procure ajudar os amigos, os vizinhos ou as instituições mais próximas de si.</p>
+      </div>
+    </div>
+    <hr>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://images.squarespace-cdn.com/content/v1/60779c032ee663667c29fd03/1619101702170-7MG3OJF8J1LVJSUEINT4/Family+Volunteering%3A+Keep+Kids+Gainfully+Occupied+This+Summer.jpg" alt="Crianças" style="width:84.5%">
+      <h3>Crianças</h3>
+      <p>Fazer parte do processo de desenvolvimento de uma criança mostra o valor dessa fase da vida para a formação de cidadãos mais conscientes.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://ochsner-craft.s3.amazonaws.com/blog/articles/_930x524_crop_center-center_75_none/GettyImages-1128207280.jpg" alt="Steak" style="width:100%">
+      <h3>Animais</h3>
+      <p>Sem carinho e muitas vezes traumatizados pelo abandono e maus-tratos, existem animais que vivem em abrigos ou mesmo nas ruas.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUYGBgaGhkcHBoaGBkYGhwaGhocGRoYGBgcIS4lHCErJBwYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHjQhISs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EAD0QAAIBAgQDBQYEBAYCAwAAAAECAAMRBBIhMQVBUSJhcYGRBhMyobHBQlLR8BRicuEVI4KSovEH0kNjsv/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACMRAAICAgMAAgMBAQAAAAAAAAABAhEhMQMSQQRRYXGBE0L/2gAMAwEAAhEDEQA/ACd4pyKIxOzoM5OSNFbHxPtGgzr7QsEitTrdsS/TN9YDqtZrwphq2ZdIJleE7tKeLqaWEmZ5SqNdo2yERUM17EywjdsSBRrePR7PcwQ2A+O01aswY2usAUeHICe0NJrcZjMM7kuLkaEwbjsdhlQlEBPLp4xdc3ZSliqJOCYpKauXYAHbqfASSt7VU1IVEZz5KB5zH4jFEm7HlYASoMRbbSWrDqjaYn2gV0dHXKSNLEnfkTMni6RFiRcdRqPUSD+IuSSdzePbFHWzan5CKik60RNV7Qliq0rvqQbbfTl+++SVTImtGsHdiYxAxt50GQaEgqWGkkR7iV80fTaMTJTI3j2kbS0Zs0fsmO2fCaxplPZP428Jq2lGEtjDGkzpMYTESMqGcBiqmMBhYHa+DV7EjUQkgsAJXoNJi0d2TVEl4oy8URRPFG3nbwEOijbxXgA8TrbSJXjnMTKQNxehjuHva4ix20r4N+1IK8CjNK9945mkDNoTKbEkSUJHU+LyMmojSRVPigDMjWrsGdQL3a2195BX4c/vfdMLOFGl+ZGYDTx+s1Xs5g71ajOnwMMpO2Y3N/IC/pLNMrUr1KgXog/0b/MkSXyNWdXFwdlZg8dwmoh7S9/lKFXD29DPVsThAw7S3gDiPAUIsnZNxfvijzfZcvjP/k8/Kk8pBY7zV4ngqqDYm8F1OH8zNFNMylwyRSpPbzFv3++UtJRzW1t32J+kpViFNukMcKJZl09e+EktsmN3SH/4UBu55bL110lavRVTYBjruT0306d82L4E75rnQ7cxfaRVeGpmJy2vqLHQEnpz/tIUos1lxciVmOShfYG52538OcjN1NiLEcprcVw0Jc/hVSzWJW5ubAka2sNh3QbisPmWzJktscx0NtmB+0tr6M02sMDh7zjSF1Kkg6ERyPcRIbNT7J/E3hNSxmW9kviaadjLZzy2NJkbNOsYwmS2IirtOIYqizqJFY6LNIyYGQ0xJIWIdnikd4oWFF3NFmnIoZDB3NGu87IWMMgSIZIzSBGjs0VjRXxvwmD8NUsRL2LPZMD0XsR4xejWgwz7yFWvYSN33jMO13A6CAIKoY2hSLuAO867WEQMkwrMpLDmQNrnrbwhJ0iuKPaSRKmLQDKCoZs2UEgFjmyXAvcjSRUlRHVFsTTRsxHNncMT5kNAuEX3mJqOSSKZOUcg7JlJt1sB8p3gtbNVrtfK11ADDMCACbkXB3Y6zJ59PRgnHDX6/Rp6lUWsYNxL3uZWHG1L+7dcjcje6N/S2/kZ3EPvr0+cTizVNeAvGNvAuIIAMI4txc9oeogjE1BrLijKbAj0WZ7ADfmQB4XJmv4Hw9UXM6sSeYAKjzFwPOUvZ3gFTE1Vyi4sG5cwGO5A5gTWY/BVKTWVScoHLKQbDcAnS99ZU22q8MuONO/TnuGv2DcWvY8hKONqOt9O+WMQxBOQ37JLAXNtNSvqTppKGIdXv2yDY6A3237JF7b6zJRN5cmKGLxQZQCOfz6mD8e97HNYcgLXtvqSbDr1Mix6sly1jY2NuR6H9RI8ZiimUplKMNCQLg80bv8AGdEDj5K2UsYlxmvqDY33sdr/AL+kGk2MKY2rmS+lyLabaEEEfODGjeyFo1/skdWh9q8zXso9lc+U0qjs35xsxlsar3jgIymd5IDIYhtUxqmcrNOKYiiyhj7yNDHQJOXijbxQAmWoRJUqyqDHAwsRbZpDeMzTl4NjJIryMGdZrQAZWGkBkdrzhs67a32treWcH7N3OeqxHRF3/wBTcvAesKb0NAWo1gZNwmmSS1j6TTNSSnoiICOoufM6mUcRxXUqzAEdx/SWojI2TLYNoTsDoT3gdO+SCpkzZtgpJPIEg/2jcSc1U1V1BRABqLFQflr9YK4t717UU3Ydo6kAXJLOOXIAA6/TGbTdI7OHjcV2a2L2erL7urUa4zVH16WUKPmDKvCeGvifeMjEOCHUghTqLEflN8ux0jOI1VpUUw6bm9z+Ikm7MbcySYQ9jHK12UH/AONTp/UZfFDsx8/L0jYMw/Bq5qZahPZYFswAa1+Q5g+Eg9qGYVcilsl1zAG2njPVgyOLOB3HmD1HSYX2j4KBVJNXQ88ovYct/nbymkuGSZlx/IjKJmMT/D0lsqDMd8wLH/cRr5QTiLkaADNYDS282v8AhtMpYOviVBP1ED0sAhxNNA2ftFm5AKoJ211uBz5zNxlHLRqpwlhM1vAqwwaBwBlCqut7g/y9Sdv0ljiXFzWYM6FF2sttNDYu3I9w7pSrpaxNzkHZXfUjcDrK5Zsua2W+6llB81P95inJo6HGKdgJMfeq7UyGUgqw0OlwRYeVxLD4cFbFAQeZP1HWVMSe3cgWuL6eht5w9jwpphhvYX1523PfKk6oiKTbszeJPu6bAqGDGwU7WAN29SLf0mBf4m29hoAb/CwGxueYhDHuTfUnlr9oOL2Xa9hNoHLy7G1R2bja/wA+chW1xfrH0ql1I5feQtG9kLRrPZinlLg+XhyMOu1oE9mMQzIQeUM1YmzKWyRGEeonKKXjwmsQFbENrOIZYroN5GlPpEBKhnbxKsRECRt4o2KKwEzgamQrxBPzSPFN2T4TLMdT4xNmkIdjYpi0Oxlb/GKYfJfWA8PVTJYkhoHx2EyqzltSdILOCowir7fw22OxZVS6drumeqccepZT2ddbQHhuL1VGUG4M1vsN7Pe9YYh75EN7cmcageA3PkOstQYKUeri1/TbezvDTTQM1y5Gl/wg/cwozbgakbnpOVG7PQn5D9ZXV7d/WbxjSMypjE3aBq9Nari4sykEkbMvQzQ1qeYMNf3zgvDYbKT128gTM+WXWJrwx7S/BKKd/KUsU/ukZjqx/YvDKU7CZT2lxeb/AC01YmwA6n938pzRR2udAekcyvWc6kkDwB5RcE4i9PEs9tgoK7ErvcHkdZ3iFMIiodlGv3lTG17vnXf6jpOjil1lZy83H3i0eopj0ZC4Nri4B0N+YmY47RJqsCdLD5i8GUvaAWQKSLHtDxjeL4s1HZnbe1gNrdwnoYaweMk4umiviCF/EPC95X4Fi0XEIL9olh/xJH0g7iPEVUFUGvPu8f09YD94Q2YGzAg3G4I1vObmaknFHbwJxkpM9hD3a/75aSvjawsbjQ6d0G8E4q1WkGyi50I/mHTuMfxPFnLqDfw+883q06PZ7JxsCPTAqDKOdu4DYk8toXxFMLStfV2Fu4a6+kCpmY2tpJcfjdAu528BNHbaM1hNlKuAT5wfxOllX+ZiB4Ab6enrH4xzksPibTylB3bN2iSw01M2ijmnLwbT00nXMcq6yYYTMtw6lvy31j9J8NF7JfC0PsJn/ZL4W8ZoGkyMZbJaPOOB75XR7GWF8IgIsS0bTixOhEdTSBJMsTHScE4x0gBHecjbxRABcbjb3Vd4GCOReGmpDOW6xy0lAtItI2VpYM+XI3E5Vq3UgzQHDoeUgxODTI2mtpSkim2Z3g2BevWSmg7THfko/Ex7gLme4YHCJSprTUWRABbr4nmSbk+cy/8A4z4IEpNiGHaqEqvcim3/ACYX7wFm2OXv0Pz6zqijEgqJcX5k/WVkQl7AX6+FhCdJM20mpU7AiwB62tcRthQAxlUliq7roT5A2+YkVMBRcyli+IBKzkbEgG+mqgKT8pS4rxMZDYzik3KWT0IRUY4O4/joF0XUnQW5nkB3yvwrh2UNWqg520VTuo6kcienIecH+yfDTVqnEvfKl8g2F9s1ufWaDHPa4v1tNFDBm51pGW47RaoxRSAToCToba2vyvtMsrsl1NwRoQdwRDvG2IJI3uNeltfrKGIxSVU/zQQ4Fg62BIHJxz8fpNIxwZObsF+9JOl790bVqVDoXPrJKNMXIBOuxP0ltMPoCRrex8Y7ozaTd0D0oHlLeG4YWdEP4jqOg3PyBmiwWAVRm3JG/K3dJOFYYnEXAvlV/UjKB84rKUQxwrh6oiWFi6s58nZdOlgFkPE6JdGAGqn5TXcUwgp0kNtaSKp/pAGY/U+UHU8LmZraKQfMTm5IuMrOzhkpRoxlVSEUjdr/ACtK9XC5VzN4wy+FIS1jdS1hblfXU6DlDXA+FBgKjrcU7EA7X/DcfPyHWEG26Q5pRTbMzR4EQyl/jyF8v5BoFU/zdr5WlL/DFd9E7Rmtxbi9VudgD6n9JHwTCAAufKdDVYOTeWZzHezOVA6tb8wNyPXcfOBMfgXpEMQQNNRqL/1D7z1GrRBBUi4ImdKlWam266eI5GAmih7MuCHI5mGnMp4OkiE5Vyg9Nr+HLy0lpzJkzGSdjbyelUtIVEbVfkJNgPxJzAnmJHhsUSO1uI1zdTAjkpc3MSyDRqs4IvIXeUeE189MGWrQA5eKdyRRWAG/iF/MJ0Vl/MJmBhan5WkqYByCSbW74nFL036mkFRfzCW+G8P/AIhxTDWB+Ij8KD4j9vEiYhb9TPWfYDhXucOKj/HVGfXfIRZB3CxzeLHpLhx29kypI0VBVRVpU1siKEAHIKLAfKTpSPMj9PGR+81yoAOZboOveZPTOZNufy5XnWYE+FK5ez1I84qr8hvz/SVsPUCHKSO18jy1keLfK4I57yGaIF8f4UtTtpZXt5N3N398824pXOdabCxLqjDxYKw+s9fUhrzz/wBoeEWxfvSOyXQr027R8bqJnKKuzWM3XUL8Oa1MgadB/aUeJ1bE/vaFMMgy7CBuJtdrbesLwNozHFblS3eP0+8GUsOTZr+omkxi5gUAvpfTXaBjdSQRe2mn1tGniiHHNkdWnpqNOotcHkwMmwyEqQdwRfxGhPyEbUewzLqOnWT4Jwc3MWUjzvAEi7gUYA2PYtex/Ceo7u6bL2JwCdp2Hb0Kg9L/ABd/L1mc4SNr8zpNXQcoQ43XUdD1B8doo7LawaLH0cyNfW6m8w3s9XOV0vqjFR1sCR9pv8PWWrTDrqrA+R2IPeDceU804NRf+OqoNFDMXY/Ci33PmbAcyYuaPZKivjyUW7NRw3g/vmLElUB1NtSegvt3mQ1RZjkNkUnKoJsRsCepPfCj1WqAU6YKUxp3t3se/pHV8CqLm6DTvOw/fdKhBRX5J5OVyf4+jJPgz27mxdjYdFvsfnLVKsiIS5CKlrlrADnvI8ZWs4Ei47wpaiCoo7dO7rzVrC5UjYnTQ8vOAaG/x1SqC1NMlPlUZTmbvVDbKO9vSQHBalizO5/EbfQWA8J1+I+8wwdd9iByI3k3Cq4qXcnQLfwtvEBRxSFVt5nwvYeuvoZWw9RvI/u8I8W0UX3Y3Ivztt5Cw8oNoHl19IMhovgWkD7zlF7ggnUaGddrTKRm1QnOhvAmJ1VoXY3BgqqbI0IgEvZ5LUhCRWUOAA+6EJNCWxDYooogMS2Lc84sNUJuCbyICTU15wksHWjReyXAadaozuLpTykryZiSVU/y6EnyHOege4NQ53NkXYdSOflMv/4/NkrgfnQ+q2+02FQqEa5NhyA7r/2nTxJOKZyzvtRG9yj5R+HKAOp1a3yHlLWbsOLi4O29tLC/pKlSr2XVdNepubnmfOR4BwC6/wAot5XBPzE2ogduCeYBPmPrOJi1fRxr15Hx6SE18ptBuNrWJy3sfr3SJIuLDD1Cm2v76wBxHFrVqrRC3ZSrMb6KNeyOpt6XElr8RCUi7/CqXB3sALEeo+cr+zmHuBXJBLqGHO+YA/2mcvouOwhUAVT3ecztfM72UQ5j37J/T+8EtXWkhY7yDQr8UqLQpFBq77n7TLUn7RHQ6+et/nCLs1Vi7nTX9iDr/wCYP5gR6W/vGiWMqnKc42/EOveO+TYAfGO8W8N/vIazZSY/gp35gsYxehTHV2RBkOVrgi3IjabXD1c9FWO5XUdDzmIdMzoO8ek1mFfIuXkdvH6ayU8l0XfZLiWSs2Hb4agZk7nW2YeY1/098K8PwCZ6xKg3qZrci1rZj16Dpr1MzOAIXGYZv53U/wCqm5+022Ap2Zx/NNo6M5bJ6YA0AAgrjeKuwQbKCT48oSxNQIpYbiZVqhIdzqSbDwH97wk8Cismd4hW/wA5fGEeMY7JhiRq7jIgG5Z7jTwFz5QHxJu33iFOCWq5XNjkBCA8ifie3U6eQ75kaorYXhppYUqx7R7R8enoJD7KVLs6+A9Tr9Ie4i10YX5frM57LJZ2F9SST5XH3h4HoS9oHCsBz+kCo15f47WDO3QaStSp2GY+QiYtsTPlYNyIsfEC4/fdHIb6yDIXDAcwbePKB6eKYMBfnJkiGrNM+imCqlMlTz7oZw2HLKCecuYbCovLWREceNspcEQimoIIl195LWcSEmNx9HOCUcDbzsdaKSYmBzRyPylj+Eki0AFvH2VHXk0XsDiGWu6HVXp38CrC3yZpuA9wT1/Uzzz2UqZcSn8wdf8AiWHzUTf/AAr5uf8AkxnT8d3E5+ZVIrfxByt5W87mTYc9ksR+G3jcj9IPxxtYXsGa5PSwA/WW8S+WmqX1IBPntNzFFapVF73/AH0lDF4hQpZmyoPn3ePdIsZiAoN/Qc/31mexzs5BbYfCOQ8B95DZSKvH+MPVXIBlQn4eZsdCx9NB84c9g8a2R6bNohBUdA17gd1x85kX7b2GwuB39TLSO9E50NjsehHMHumbLTpm64jidbQLiWzm19INbiJZM+oOxBN7dLdROYfGBhe9+tjJaNLCmIZUpkhRsdbafOZxB2855D6y1xjGllCjTa/lygupV0EEhNnOJPoD4j9/OWeBL2R5/WC6/b28ZoOBULKvhB6EssJYOkDUvNDUpXQj/uDOF0u1e00AHZkVk08BHBahdqbtujsD4qGTN3XDX8bz0HANcM3U/QATBcOITOOtUgf7Vc/f1E2/CD/lf6ifWbR0ZS2VOP4jKCL8tu+Aa6FUC9Br485e4uuasOml/TWB/aDiSUEzNqxuEXYsfsBzMUhx0Zvj9UXCjRmGvcOZP0/6hP2SfRh07plg7OS7m7Mb+HQAchNP7LqRmJ5yWXHZexVde2OdunWDvZsACo55Gw8dT+/CVsZictV77HSXeEYc+4A/Ozv5EkL8hfzgxJ2ypQw5qOzn4c05j3u+VT3QxiLU6ZFv3/3A/D6NyXbRRqbxDO5MgHW14Ko4Qe/7Q0vfyOstVcWXcnleKuLgOPwmx8P39ZE1gSeTR0jdSBpaQB7RYFwbWO4keL7LH1mfE8UbsfUrC0jo17m0G1cTKTYpswCnUmaS0ZyyqNPeKB/d4nqIplkx6r7BqoxiqggWMGDFvyMfSqOzdowcTpUi5h8QyOrrupBHiNZ6LhsWatJKmUrnF7E3tqRv0Np5/gMC1aoqLudzyVebGem4KiqIqD4VUKL63AFtZt8e1b8Medp0vQUaoL3f4V0/qO9r/WDOJcWzMSGB7gL+QmjxWFQ9lkUjvGkrLwqiv4B4XNvSdWWc9pGUqVi2ygfO3dbaDsYTtqWO5/SbziWCQqpAAy7WFoFfhlzfl+7xNAmZvhmAJddOv0Mu8SwehHhNDhMEFYMBtf5AytXp5lbmQfrqPvJoqwFg8KC2UjQjXvlRsKquQNDrb9JoKNEBx05wZxSn2795+sKBMFYhDc/vWD61I84Xr9ZBiadwDFQ7KuCwpN/CbHhmCy00/pGnlAeAQZL87EeZ2m5o0LIosLBV+kmSKiyvhadtoVprp5SvRWW12io0sCil27//AGOPVE/9Js+H4gGhm/KoH+28zFJRkOYhczuLnTUsVX6CR1+M/wAPg9Rmepoi9SCQSe4WlxeDOSyTcT4mlJTUqMNdhzJ/Ko5med4mu+Jqmo/gq8lXko+55mWKWCqYirnqkk6k+A5AbAa7CH6GBRbD6eElspIEUMLtNHwqnZDaVcQgBGXl0lrBEhT336/rILWDN+0N7sw5Q5wDEh6CW/CAPTSCeLWzWg/hmO9w+X8DH06iU9ELZp8ahYgcoJ4zirKKanfeFcfWCLe4208+czeHU1XvvAbY/D0bLeWqKXUqfxD/AKlkUNxppzla9jfpATLPDavZHUG0n403ZVh4QdTISoTYlG1sJcfF0W0a47jONNxk8WdCzEB1nJOm8bw2neqt+sOChhybhgD4zuH4ciPnVr+cp8q/RMosv2inM8UX+kTH/OX0efUG3vJsMTmI5SrT3mk9iuHe9rlyOxTAY97a5B6i/lN3G8DUqybP2e4X7incjtuLsenMJ5fW8vO4C3JAO5uba8iI7EOApJIAG5MA1FqYkkC6Ub2z7Mw55fH0HedJ0wioqkc8m5O2GcPi0qgZWuL2zbAMNLG8tVaZB1EqYfCIioiCygC369575dXFEuUOqgb9OuvTumiRJFibFD3RtOn2B5/rO4gAAHdSdCNvOTI4CZmsFB/tGBTdAFY9310+8F03Aex2ZbeYOhl3HYgKMnU6+RlGkmeqo5AXPgJLQ0yvjqeRtdoHxhuLw5xernPcNB97QLVF1kssG1RpEiZk9ZLWTsmPwidgxAO4cnwr1dfmQJu+nhPPqdXI6XOnvE//AEDeb0PJZaJFEdm75XWp0+X3kivfS0RRHTRcgZgCFZnsf5WL38bgQPjUz+5BsBToqSTsC93Y+rAeUKMubDFebUiO/tIf1lGrQy5ATY5KfplBG0TusAtlbh1Vc7rsQtvmJdHkZQw2GRC7AlmK3ue8jQS5RcbxIZFiKfP7zqVAAfCMxL8r6SF2AHr+9Y6CwNxBjmIJ5/OCMWtxvtrCWOcFzaDcWnYJiJYZ43WIpot9QiDzCi8d7OKTc2sOso1lfEMFTQAC7HZQOv6Q7w3CilZAjuTrmYBFJ7r6wH6TM9j8JPfKFc28IbqUiNbW7r/eA8YyA6r8z9oAytjcQQmZNSpvtfQ7/b0gapjixuwHlpC9GugNspIO4vpbpttMy1rm21zbw5RKKb0Jya9CdPFJzv5SdaoPwufWBS0mwx1HjE+OOwjN6Cf8Q/5jFIcsUjpE17MHodZ6h7E4QU8MGO9S7t4EWA/2gepiimsdmMtD8vv7FrilcZVBsX10ZiNhp8PrCKctNLWA7hyiinRHRiy2x59LSk4Nyb76/wBoopSJZcwIspvqOh1BB5EeMkekKnZGh5A7adLbRRQYIAcYoMNWsCLbG/deVBW92pfdmAVe5Rv6n6RRSSwTVxRB7VrE26xY1crH97xRSSgfXb6RU6mVPExRRMAVjKhJ066eJ5z0Wm1wPCKKQy0ODfv6TiVdbGKKBRJg37IHS49DaDuIOS/gqjyUZR8gIooCIqqZVJ/lUfOOFSyiKKSMgLnfaUcRXF+cUUfgvQXXYE6Sniqgy2I5gW63iighM2HA+H+6phmt1sNbd5J3MIpiFcEWv1EUURQMxlOoNaVQg/lbtKfXUesHip70FXUBxvbbyiigIFYhMq1OoUkekBgxRRoliMs4Qdpb/mEUUJaYR2G/cr3xRRTh7yOukf/Z" alt="Cherries" style="width:85%">
+      <h3>Idosos</h3>
+      <p>O acompanhamento dos idosos melhora a qualidade de vida dos idosos e dos voluntários, melhorando a saúde emocional de ambos.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://i0.wp.com/www.schlitzaudubon.org/wp-content/uploads/2018/05/volunteer-schlitz-audubon.jpg?resize=804%2C478&ssl=1" alt="Pasta and Wine" style="width:95%">
+      <h3>Meio Ambiente</h3>
+      <p>Pouco fomos educados de que o Planeta Terra é a nossa casa e a natureza uma extensão da nossa própria existência humana. Sem natureza não existe vida na Terra.</p>
+    </div>
+  </div>
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="testemunhos">
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third w3-serif">
+      <h3>TESTEMUNHOS</h3>
+      <p>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">África do Sul</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Brasil</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Quénia</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cabo Verde</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tanzânia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Zanzibar</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Gana</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Namíbia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Costa Rica</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tailândia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Nepal</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vietname</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Índia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Angola</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
